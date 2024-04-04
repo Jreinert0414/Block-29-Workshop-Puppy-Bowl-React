@@ -1,0 +1,15 @@
+.pupperCard{
+  max-width: 10em;
+  max-height: 20em;
+}
+
+img{
+  max-width: 10rem;
+  max-height: 20rem;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column ;
+  justify-content: space-evenly
+}
