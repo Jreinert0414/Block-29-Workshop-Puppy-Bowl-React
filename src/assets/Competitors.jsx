@@ -39,7 +39,7 @@ const Competitors = ({ puppyList, API_URL, fetchAllPlayers, }) => {
               <button onClick={() => {
                 navigate(`/details/${puppy.id}`)
               }}>Details:</button>
-              <button onClick={() => handleEvent(puppy.id)}>Addopt Pup!</button>
+              <button className="submit" onClick={() => handleEvent(puppy.id)}>Addopt Pup!</button>
             </div>)
         })
       }

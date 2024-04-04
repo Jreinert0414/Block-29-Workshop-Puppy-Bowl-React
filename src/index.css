@@ -9,7 +9,25 @@ img{
 }
 
 .flex{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+}
+
+.form{
   display: flex;
-  flex-direction: column ;
-  justify-content: space-evenly
+  flex-direction: column;
+  justify-content: left;
+  max-width: 25%;
+  background-color: antiquewhite;
+  padding: 3%;
+}
+
+.button{
+  max-width: 25%;
+}
+
+.submit{
+  background-color: rgb(236, 88, 117);
 }

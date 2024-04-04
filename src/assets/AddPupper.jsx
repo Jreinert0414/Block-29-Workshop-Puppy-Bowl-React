@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 
-const AddPupper = ({fetchAllPlayers}) => {
+const AddPupper = ({ fetchAllPlayers }) => {
 
 const [name, setName]= useState('')
 const [breed, setBreed]= useState('')
@@ -63,7 +63,7 @@ return (
         onChange={(event)=>{ 
           setImage(event.target.value)}} />
         <br/>
-        <button type="submit">Enter Pupper</button>
+        <button >Enter Pupper</button>
       </form>
 
     </>

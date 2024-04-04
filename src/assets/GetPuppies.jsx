@@ -18,7 +18,7 @@ const AllPlayers = ({ fetchAllPlayers, puppyList, setPuppyList }) => {
   return (
 
     <>
-      <h1>competitors: </h1>
+      <h1>competitors: </h1><br/>
       <Competitors
         puppyList={puppyList}
         API_URL={API_URL}

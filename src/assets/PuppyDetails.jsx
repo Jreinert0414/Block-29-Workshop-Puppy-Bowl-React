@@ -37,7 +37,7 @@ const Details = ({ API_URL }) => {
       <p>{puppyDetails.status}</p>
       <img src={puppyDetails.imageUrl} />
       <br/>
-      <button onClick={()=>{
+      <button className="button" onClick={()=>{
         navigate("/");
       }}>Home        
       </button>
